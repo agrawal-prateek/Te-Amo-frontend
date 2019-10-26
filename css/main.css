@@ -13,7 +13,7 @@ Text Domain: restaurant
 GLOBAL
 =========================*/
 .reviewee-name{
-    color: #96E16B;
+    color: #ec8684;
     text-align: left;
     margin-top: 10px;
     text-transform: capitalize;
@@ -39,10 +39,10 @@ GLOBAL
     color: rgba(47, 46, 47, 0.5);
 }
 .review-action-text{
-    color: #96E16B;
+    color: #ec8684;
     text-transform: uppercase;
     padding-bottom: 8px;
-    border-bottom: 1px solid #96E16B;
+    border-bottom: 1px solid #ec8684;
     text-decoration: none;
 }
 .testimonial-action {
@@ -55,7 +55,7 @@ GLOBAL
 }
 
 .black-border {
-    border-color: black;
+    border-color: #2f2e2f;
 }
 
 h1 {
@@ -71,7 +71,7 @@ h1 {
 }
 
 .navactive {
-    border-bottom: 1px solid #96E16B;
+    border-bottom: 1px solid #ec8684;
 }
 
 p.desc-text {
@@ -156,7 +156,7 @@ li.item {
     position: relative;
     width: 100%; /* for IE 6 */
 
-    background: rgba(211, 15, 34, 1);
+    background: #ec8684;
 }
 
 .icon_knife {
@@ -221,7 +221,7 @@ h1, h2, p, span, a {
 }
 
 .color_animation:hover {
-    color: #9BE86F !important;
+    color: #ec8684 !important;
 }
 
 /*========================
@@ -302,7 +302,7 @@ INTRO CONTAINER
 }
 
 .black {
-    color: black;
+    color: #2f2e2f;
 }
 
 /* ========================
@@ -430,7 +430,7 @@ FIRST FOOTER CONTENT
     font-size: 24px;
     font-weight: 900;
     letter-spacing: 0.040em;
-    color: #63C85D;
+    color: #ec8684;
     text-align: center;
     margin: 40px 0 0 0;
 }
@@ -453,7 +453,7 @@ FIRST FOOTER CONTENT
 }
 
 .social_info a:hover {
-    color: #6c8f34;
+    color: #ec8684;
 }
 
 .social_icons {
@@ -479,7 +479,7 @@ FIRST FOOTER CONTENT
 }
 
 .social_icons li a:hover {
-    color: #6c8f34;
+    color: #ec8684;
 }
 
 .direction a {
@@ -583,13 +583,13 @@ p.sub-footer-text a {
 }
 
 .form:hover {
-    border: 1px solid #8BC3A3;
+    border: 1px solid #ec8684;
 }
 
 .form:focus {
     color: white;
     outline: none;
-    border: 1px solid #8BC3A3;
+    border: 1px solid #ec8684;
 }
 
 .textarea {
@@ -617,7 +617,7 @@ p.sub-footer-text a {
 }
 
 .button:hover {
-    background: #8BC3A3;
+    background: #ec8684;
     color: white;
 }
 
@@ -630,7 +630,7 @@ p.sub-footer-text a {
     height: auto;
     padding: 15px;
     color: #fff;
-    background: rgba(80, 160, 108, 1);
+    background: #ec8684;
     border: none;
     border-radius: 3px;
     outline: none;
@@ -645,7 +645,7 @@ p.sub-footer-text a {
 }
 
 .form-btn:hover {
-    background: rgba(85, 184, 120, 1);
+    background: #ec8684;
     color: white;
     border: none;
 }
@@ -791,7 +791,7 @@ MEDIA QUERIES TABLET
     }
 
     .main-nav a:hover {
-        color: #6c8f34;
+        color: #ec8684;
     }
 
     .direction a {
@@ -803,7 +803,7 @@ MEDIA QUERIES TABLET
     }
 
     .direction a:hover {
-        border: 5px solid #6D903C;
+        border: 5px solid #ec8684;
     }
 
     /*========================
@@ -863,7 +863,7 @@ MEDIA QUERIES TABLET
 Social Connect
 =========================*/
 section.social_connect {
-    background-color: black;
+    background-color: #2f2e2f;
     text-align: center;
     margin-bottom: 50px;
 }
