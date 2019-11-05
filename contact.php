@@ -33,11 +33,11 @@ function sendmail($receiverEmail, $senderEmail, $senderEmailToDisplay, $senderNa
     }
 }
 
-$receiverEmail = 'prateekagrawal89760@gmail.com';
-$senderEmailToDisplay = 'prateek.agrawal_me15@gla.ac.in';
-$senderEmail = 'prateek.agrawal_me15@gla.ac.in';
+$receiverEmail = '<receiver email>';
+$senderEmailToDisplay = '<sender email to display>';
+$senderEmail = '<sender email here>';
 $senderName = "Prateek Agrawal";
-$senderPassword = "rYjqum-duqna8-nibhuz";
+$senderPassword = "<sender password here>";
 $receiverName = "Prateek Agrawal";
 
 $error = false;
