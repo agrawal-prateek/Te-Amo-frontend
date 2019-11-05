@@ -12,6 +12,22 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+.space {
+    height: 115px !important;
+}
+
+.mocktails-food-gallery-image {
+    width: 100% !important;
+}
+
+.starters-food-gallery-image {
+    width: 100% !important;
+}
+
+.speciality-food-gallery-image {
+    width: 100% !important;
+}
+
 .offers-content {
     display: flex;
     align-items: center;
@@ -22,13 +38,27 @@ GLOBAL
     margin-left: auto;
     margin-right: auto;
 }
+
 #menu-tag {
     color: #2f2e2f;
+}
+
+#moctail-heading {
+    /*color: #2f2e2f;*/
+}
+
+#starter-heading {
+    /*color: #2f2e2f;*/
+}
+
+#speciality-heading {
+    /*color: #2f2e2f;*/
 }
 
 #menu-tag span {
     color: white;
 }
+
 .novablocks-hero__indicator {
     -webkit-font-smoothing: antialiased;
     position: absolute;
@@ -60,7 +90,8 @@ GLOBAL
 }
 
 .testimonials {
-
+    /*margin-top: 0!important;*/
+    /*margin-bottom: 0!important;*/
 }
 
 .vertical-center {
@@ -87,41 +118,50 @@ GLOBAL
 .carousel-indicators .active {
     background: #2f2e2f !important;
 }
-.reviewee-name{
+
+.reviewee-name {
     color: #ec8684;
     text-align: left;
     margin-top: 10px;
     text-transform: capitalize;
 }
-.star-list{
+
+.star-list {
     padding-left: 0 !important;
     padding-right: 0 !important;
     float: left;
 }
-.quote-left{
+
+.quote-left {
     text-align: left;
 }
-.card{
+
+.card {
     padding: 5px;
 }
-.star{
+
+.star {
     display: inline;
 }
-.card-row{
+
+.card-row {
     margin-top: 50px;
 }
-.review-timeline{
+
+.review-timeline {
     display: inline;
     color: rgba(47, 46, 47, 0.5);
     float: right;
 }
-.review-action-text{
+
+.review-action-text {
     color: #ec8684;
     text-transform: uppercase;
     padding-bottom: 8px;
     border-bottom: 1px solid #ec8684;
     text-decoration: none;
 }
+
 .testimonial-action {
     margin-top: 50px;
 }
@@ -157,6 +197,7 @@ GLOBAL
 .opening-hours {
     color: white;
 }
+
 .black-border {
     border-color: #2f2e2f;
 }
@@ -447,10 +488,25 @@ INTRO CONTAINER
     background-position: 70% 50%;
 }
 
-.bread.background_content {
-    background: url('../images/bread.jpg') no-repeat center center;
+.mocktails.background_content {
+    background: url('../images/food-gallery/Mocktails/Singapore Sling.jpg') no-repeat center center;
     background-size: cover;
-    background-position: 70% 50%;
+    background-position: 16% 8%;
+    background-attachment: fixed;
+}
+
+.starters.background_content {
+    background: url('../images/food-gallery/Starters/Paneer Hill Top.jpeg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.speciality.background_content {
+    background: url('../images/food-gallery/Speciality/speciality.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .featured.background_content {
@@ -469,13 +525,6 @@ INTRO CONTAINER
 
 .reservation.background_content {
     background: url('../images/reservation-seat.jpg') no-repeat center center;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.bread.background_content {
-    background: url('../images/breakfast.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
