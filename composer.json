@@ -1,0 +1,13 @@
+{
+  "name": "prateek/te-amo-frontend",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Prateek Agrawal",
+      "email": "prateekagrawal89760@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "~6.1"
+  }
+}

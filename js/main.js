@@ -13,18 +13,10 @@ $(document).ready(function () {
 
     // Contact Form
     $("#contactForm").submit(function (e) {
-
         e.preventDefault();
         var $ = jQuery;
-
         var postData = $(this).serializeArray(),
-            formURL = $(this).attr("action"),
-            $cfResponse = $('#contactFormResponse'),
-            $cfsubmit = $("#cfsubmit"),
-            cfsubmitText = $cfsubmit.text();
-
-        $cfsubmit.text("Sending...");
-
+            formURL = $(this).attr("action");
 
         $.ajax(
             {
@@ -32,21 +24,19 @@ $(document).ready(function () {
                 type: "POST",
                 data: postData,
                 success: function (data) {
-                    $cfResponse.html(data);
-                    $cfsubmit.text(cfsubmitText);
+                    console.log(data);
                     $('#contactForm input[name=name]').val('');
                     $('#contactForm input[name=email]').val('');
+                    $('#contactForm input[name=number]').val('');
                     $('#contactForm textarea[name=message]').val('');
+                    showSnackBar("Query submitted successfully");
                 },
                 error: function (data) {
-                    alert("Error occurd! Please try again");
+                    showSnackBar("Error occurd! Please try again");
                 }
             });
-
         return false;
-
     });
-
 
     // Others
     $(document).on("scroll", onScroll);

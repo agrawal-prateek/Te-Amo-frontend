@@ -16,6 +16,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link href="css/snackbar.css" rel="stylesheet">
+    <script src="js/snackbar.js"></script>
     <!--    <link rel="manifest" href="favicon/site.webmanifest">-->
 </head>
 <body>
@@ -91,7 +93,7 @@
 
 <section id="pricing" class="description_content">
     <div class="pricing background_content">
-        <h1>Feed Your <span>Soul</span></h1>
+        <h1 id="menu-tag">Feed Your <span>Soul</span></h1>
     </div>
     <div class="text-content container">
         <ul id="portfolio">
@@ -378,7 +380,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <form action="contact_form.php" id="contactForm" method="post">
+                <form action="contact.php" id="contactForm" method="post">
                     <!-- Left Inputs -->
                     <div class="col-md-6 ">
                         <div class="input-group">
@@ -407,12 +409,12 @@
                         </button>
                     </div>
                 </form>
-                <div id="contactFormResponse"></div>
             </div>
         </div>
-
     </div>
 </section>
+<div id="contact-submit"></div>
+
 <!-- ============ Social Section  ============= -->
 
 <section class="social_connect">
