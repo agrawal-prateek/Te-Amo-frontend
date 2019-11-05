@@ -15,6 +15,7 @@ GLOBAL
 #offer {
     padding-top: 0;
 }
+
 .space {
     height: 115px !important;
 }
@@ -36,6 +37,12 @@ GLOBAL
     align-items: center;
     margin-top: 0 !important;
     padding-top: 0 !important;
+}
+
+@media (max-width: 767px) {
+    .offers-content {
+        display: grid;
+    }
 }
 
 .offer-carousel {
@@ -99,9 +106,15 @@ GLOBAL
     margin-bottom: 0 !important;
 }
 
-.vertical-center {
+.testimonials-vertical-center {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 767px) {
+    .testimonials-vertical-center {
+        display: grid;
+    }
 }
 
 .carousel {
@@ -165,6 +178,8 @@ GLOBAL
     padding-bottom: 8px;
     border-bottom: 1px solid #ec8684;
     text-decoration: none;
+    display: inline-flex;
+    margin-bottom: 8px;
 }
 
 .testimonial-action {
