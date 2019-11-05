@@ -12,6 +12,7 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+
 .space {
     height: 115px !important;
 }
@@ -31,6 +32,8 @@ GLOBAL
 .offers-content {
     display: flex;
     align-items: center;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 
 .offer-carousel {
@@ -90,8 +93,8 @@ GLOBAL
 }
 
 .testimonials {
-    /*margin-top: 0!important;*/
-    /*margin-bottom: 0!important;*/
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
 }
 
 .vertical-center {
