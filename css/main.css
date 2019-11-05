@@ -12,7 +12,16 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+.offers-content {
+    display: flex;
+    align-items: center;
+}
 
+.offer-carousel {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
 #menu-tag {
     color: #2f2e2f;
 }
@@ -60,15 +69,18 @@ GLOBAL
 }
 
 .carousel {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     padding: 20px;
+}
+
+.box-shadow-carousel {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .carousel-indicators li {
     border: 1px solid #2f2e2f !important;
 }
 
-.carousel-inner {
+.carousel-inner-testonomials {
     height: 210px !important;
 }
 
