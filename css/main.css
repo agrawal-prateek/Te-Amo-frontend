@@ -12,7 +12,9 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
-
+#offer {
+    padding-top: 0;
+}
 .space {
     height: 115px !important;
 }
@@ -304,8 +306,6 @@ p.desc-text {
 li.item {
     position: relative;
     width: 100%; /* for IE 6 */
-
-    background: #ec8684;
 }
 
 .icon_knife {
