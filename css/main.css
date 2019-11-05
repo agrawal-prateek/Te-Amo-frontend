@@ -12,20 +12,6 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
-@font-face {
-    font-family: 'reforma1969';
-    src: url("../fonts/Reforma1969/Reforma1969-Negra.eot") format('embedded-opentype');
-    src: url("../fonts/Reforma1969/Reforma1969-Negra.woff") format('woff');
-    src: url("../fonts/Reforma1969/Reforma1969-Negra.ttf") format('truetype');
-}
-
-@font-face {
-    font-family: 'reforma2018';
-    src: url("../fonts/Reforma2018/Reforma2018-Negra.eot") format('embedded-opentype');
-    src: url("../fonts/Reforma2018/Reforma2018-Negra.woff") format('woff');
-    src: url("../fonts/Reforma2018/Reforma2018-Negra.ttf") format('truetype');
-}
-
 .novablocks-hero__indicator {
     -webkit-font-smoothing: antialiased;
     position: absolute;
@@ -123,21 +109,16 @@ GLOBAL
 .phone-no {
     text-decoration: none;
     color: white;
-    font-family: 'reforma1969';
-    font-size: 40px;
 }
 
 .mail-to {
     text-decoration: none;
     color: white;
-    font-family: 'reforma1969';
-    font-size: 40px;
 }
 
 .address {
     text-decoration: none;
     color: white;
-    font-family: 'reforma2018';
     border-bottom: 1px solid white;
 }
 
@@ -145,9 +126,16 @@ GLOBAL
     border-bottom: 1px solid #ec8684;
 }
 
+.phone-no:hover {
+    border-bottom: 1px solid #ec8684;
+}
+
+.mail-to:hover {
+    border-bottom: 1px solid #ec8684;
+}
+
 .opening-hours {
     color: white;
-    font-family: 'reforma2018';
 }
 .black-border {
     border-color: #2f2e2f;
