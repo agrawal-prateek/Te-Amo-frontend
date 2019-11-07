@@ -14,8 +14,8 @@ $(document).ready(function () {
     // Contact Form
     $("#contactForm").submit(function (e) {
         e.preventDefault();
-        var $ = jQuery;
-        var postData = $(this).serializeArray(),
+        let $ = jQuery;
+        let postData = $(this).serializeArray(),
             formURL = $(this).attr("action");
 
         $.ajax(
@@ -31,7 +31,7 @@ $(document).ready(function () {
                     $('#contactForm textarea[name=message]').val('');
                     showSnackBar("Query submitted successfully");
                 },
-                error: function (data) {
+                error: function () {
                     showSnackBar("Error occurd! Please try again");
                 }
             });
@@ -45,27 +45,30 @@ $(document).ready(function () {
         e.preventDefault();
         $(document).off("scroll");
 
-        $('a').each(function () {
+        $('.navlink').each(function () {
             $(this).removeClass('navactive');
-        })
-        $(this).addClass('navactive');
+        });
 
-        var target = this.hash;
+        let target = this.hash;
         $target = $(target);
+        const scrollToPosition = $(target).offset().top - 80;
+
         $('html, body').stop().animate({
-            'scrollTop': $target.offset().top + 2
+            'scrollTop': scrollToPosition
         }, 500, 'swing', function () {
-            window.location.hash = target;
+            window.location.hash = "" + target;
+            $('html').animate({'scrollTop': scrollToPosition}, 0);
             $(document).on("scroll", onScroll);
         });
+        $(this).addClass('navactive');
     });
 });
 
 function onScroll(event) {
-    var scrollPosition = $(document).scrollTop();
+    let scrollPosition = $(document).scrollTop();
     $('.nav li a').each(function () {
-        var currentLink = $(this);
-        var refElement = $(currentLink.attr("href"));
+        let currentLink = $(this);
+        let refElement = $(currentLink.attr("href"));
         if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
             $('ul.nav li a').removeClass("navactive");
             currentLink.addClass("navactive");
@@ -82,8 +85,4 @@ function onScroll(event) {
         });
     });
 
-    $(function () {
-        $("#datepicker").datepicker();
-    });
-
-};
+}
