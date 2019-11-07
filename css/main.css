@@ -12,6 +12,9 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+.aboutUsIcon {
+    margin: 16px;
+}
 #offer {
     padding-top: 0;
 }
