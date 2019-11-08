@@ -12,6 +12,15 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+.mocktails-left-content {
+    text-align: left !important;
+    padding-left: 65px;
+}
+
+.speciality-right-content {
+    text-align: right !important;
+    padding-right: 65px;
+}
 .aboutUsIcon {
     margin: 16px;
 }
@@ -58,16 +67,16 @@ GLOBAL
     color: #2f2e2f;
 }
 
-#moctail-heading {
-    /*color: #2f2e2f;*/
+#moctail-heading, #moctail-heading span {
+    color: #2f2e2f;
 }
 
 #starter-heading {
     /*color: #2f2e2f;*/
 }
 
-#speciality-heading {
-    /*color: #2f2e2f;*/
+#speciality-heading, #speciality-heading span {
+    color: #2f2e2f;
 }
 
 #menu-tag span {
