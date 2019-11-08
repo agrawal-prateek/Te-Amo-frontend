@@ -12,6 +12,23 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+.mocktails-item-name {
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+}
+
+.starters-item-name {
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+}
+
+.speciality-item-name {
+    font-size: 18px;
+    color: white;
+    margin: 10px;
+}
 .transparent-nav {
     background-color: transparent !important;
     animation: anim_to_tranparent 1s;
