@@ -419,7 +419,7 @@ div#bs-example-navbar-collapse-1 {
 }
 
 nav {
-    background: #1E1E1E !important;
+    background: transparent !important;
     font-size: 18px;
     color: white !important;
 }
@@ -854,6 +854,7 @@ h1 {
 }
 
 .navbar-default {
+    background: transparent !important;
     border: 0 !important;
 }
 
