@@ -521,21 +521,21 @@ INTRO CONTAINER
 }
 
 .mocktails.background_content {
-    background: url('../images/food-gallery/Mocktails/Singapore Sling.jpg') no-repeat center center;
+    background: url('../images/food-gallery/Mocktails/mocktails-background.jpg') no-repeat center center;
     background-size: cover;
     background-position: 16% 8%;
     background-attachment: fixed;
 }
 
 .starters.background_content {
-    background: url('../images/food-gallery/Starters/Paneer Hill Top.jpeg') no-repeat center center;
+    background: url('../images/food-gallery/Starters/starter-background.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
 .speciality.background_content {
-    background: url('../images/food-gallery/Speciality/speciality.jpg') no-repeat center center;
+    background: url('../images/food-gallery/Speciality/specialities-background.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
