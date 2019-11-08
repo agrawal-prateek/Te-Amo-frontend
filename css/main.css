@@ -12,6 +12,44 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+.transparent-nav {
+    background-color: transparent !important;
+    animation: anim_to_tranparent 1s;
+}
+
+@keyframes anim_to_tranparent {
+    from {
+        background-color: white;
+    }
+    to {
+        background-color: transparent;
+    }
+}
+
+.white-nav {
+    background-color: white !important;
+    animation: anim_to_white 1s;
+}
+
+@keyframes anim_to_white {
+    from {
+        background-color: transparent;
+    }
+    to {
+        background-color: white;
+    }
+}
+
+#food-gallery {
+    background: #800019;
+}
+
+#pricing {
+    padding-top: 0px;
+    background: #800019;
+    margin-top: 50px;
+}
+
 .mocktails-left-content {
     text-align: left !important;
     padding-left: 65px;
@@ -26,11 +64,14 @@ GLOBAL
     text-align: right !important;
     padding-right: 65px;
 }
+
 .aboutUsIcon {
     margin: 16px;
 }
+
 #offer {
     padding-top: 0;
+    background: #800019;
 }
 
 .space {
@@ -257,12 +298,17 @@ h1 {
     border: 1px solid rgba(47, 46, 47, 0.59);
 }
 
+.offer-heading {
+    color: white !important;
+    border: 1px solid #ffffff !important;
+}
+
 .scrolloff {
     pointer-events: none;
 }
 
 .navactive {
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #800019;
 }
 
 p.desc-text {
@@ -340,6 +386,14 @@ p.desc-text {
     content: "\e603";
 }
 
+.bread-icon {
+    color: white;
+}
+
+.offer-desc-text {
+    color: white;
+}
+
 .carousel-slide {
     float: right !important;
     margin-right: -15px;
@@ -412,7 +466,7 @@ h1, h2, p, span, a {
 }
 
 .color_animation:hover {
-    color: yellow !important;
+    color: #800019 !important;
 }
 
 /*========================
@@ -433,7 +487,7 @@ div#bs-example-navbar-collapse-1 {
 }
 
 nav {
-    background: transparent !important;
+    /*background: transparent !important;*/
     font-size: 18px;
     color: #2f2e2f !important;
 }
@@ -489,7 +543,7 @@ INTRO CONTAINER
 }
 
 .menu-items-name {
-    color: #2f2e2f;
+    color: white;
     /*background: #ec8684;*/
 }
 
@@ -868,7 +922,7 @@ h1 {
 }
 
 .navbar-default {
-    background: transparent !important;
+    /*background: transparent !important;*/
     border: 0 !important;
 }
 

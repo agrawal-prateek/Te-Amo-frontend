@@ -65,7 +65,10 @@ $(document).ready(function () {
 });
 
 function onScroll(event) {
+    const homePage = $('#top');
+    const nav = $('#main-nav');
     let scrollPosition = $(document).scrollTop();
+
     $('.nav li a').each(function () {
         let currentLink = $(this);
         let refElement = $(currentLink.attr("href"));
@@ -76,13 +79,21 @@ function onScroll(event) {
             currentLink.removeClass("navactive");
         }
     });
-
-
     $(function () {
         $('#portfolio').mixitup({
             targetSelector: '.item',
             transitionSpeed: 350
         });
     });
-
+    if (scrollPosition > homePage.height()) {
+        if (nav.hasClass("transparent-nav")) {
+            nav.removeClass('transparent-nav');
+            nav.addClass('white-nav');
+        }
+    } else {
+        if (nav.hasClass("white-nav")) {
+            nav.removeClass('white-nav');
+            nav.addClass('transparent-nav');
+        }
+    }
 }
