@@ -500,6 +500,12 @@ div#bs-example-navbar-collapse-1 {
     text-decoration: none !important;
 }
 
+@media (max-width: 767px) {
+    div#bs-example-navbar-collapse-1 {
+        background-color: white;
+    }
+}
+
 .navbar-brand {
     font-family: 'Pacifico', cursive;
     font-size: 34px !important;
