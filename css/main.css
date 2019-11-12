@@ -90,6 +90,10 @@ GLOBAL
     margin: 16px;
 }
 
+.testimonials-icon {
+    margin: 16px;
+    transform: rotateX(180deg);
+}
 #offer {
     padding-top: 0;
     background: #800019;
