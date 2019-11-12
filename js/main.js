@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     // Google Map
     $('.map').addClass('scrolloff'); // set the pointer events to none on doc ready
     $('#contact').on('click', function () {
@@ -51,7 +50,7 @@ $(document).ready(function () {
 
         let target = this.hash;
         $target = $(target);
-        const scrollToPosition = $(target).offset().top - 80;
+        const scrollToPosition = $(target).offset().top - $('nav').outerHeight();
 
         $('html, body').stop().animate({
             'scrollTop': scrollToPosition
@@ -85,9 +84,10 @@ function onScroll(event) {
             transitionSpeed: 350
         });
     });
-    if (scrollPosition > homePage.height()) {
-        if (nav.hasClass("transparent-nav")) {
+    if (scrollPosition + $('nav').outerHeight() > homePage.height()) {
+        if (nav.hasClass("transparent-nav") || nav.hasClass("default-transparent-nav")) {
             nav.removeClass('transparent-nav');
+            nav.removeClass('default-transparent-nav');
             nav.addClass('white-nav');
         }
     } else {
