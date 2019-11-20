@@ -299,6 +299,19 @@ GLOBAL
     border-bottom: 1px solid #ec8684;
 }
 
+
+.online-food-order {
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.online-food-order:hover {
+    border-bottom: 1px solid #ec8684;
+}
+
 .phone-no:hover {
     border-bottom: 1px solid #ec8684;
 }
