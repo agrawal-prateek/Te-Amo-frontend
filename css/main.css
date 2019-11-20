@@ -507,6 +507,22 @@ h1, h2, p, span, a {
     color: #800019 !important;
 }
 
+.social-icons {
+    color: white;
+    text-decoration: initial;
+    margin-right: -30px;
+    margin-left: -30px !important;
+    -webkit-transition: color 0.3s ease-out;
+    -moz-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    -ms-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons:hover {
+    color: #ec8684 !important;
+}
+
 /*========================
     NAV
 =========================*/
