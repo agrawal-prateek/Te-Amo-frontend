@@ -320,13 +320,15 @@ GLOBAL
 .online-food-order {
     margin-left: 4px;
     margin-right: 4px;
-    text-decoration: none;
-    color: white;
-    border-bottom: 1px solid white;
 }
 
-.online-food-order:hover {
-    border-bottom: 1px solid #ec8684;
+.food-order-icon {
+    width: 32px;
+    transition: width 1s;
+}
+
+.food-order-icon:hover {
+    width: 40px;
 }
 
 .phone-no:hover {
