@@ -12,6 +12,13 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+@font-face {
+    font-family: 'reforma1969';
+    src: url("../fonts/Reforma1969/Reforma1969-Negra.eot") format('embedded-opentype');
+    src: url("../fonts/Reforma1969/Reforma1969-Negra.woff") format('woff');
+    src: url("../fonts/Reforma1969/Reforma1969-Negra.ttf") format('truetype');
+}
+
 @media (max-width: 768px) {
     #food-g-nav-ul {
         display: none;
@@ -347,11 +354,13 @@ GLOBAL
 }
 
 .phone-no {
+    font-family: 'reforma1969', Helvetica, sans-serif;
     text-decoration: none;
     color: white;
 }
 
 .mail-to {
+    font-family: 'reforma1969', Helvetica, sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -360,6 +369,7 @@ GLOBAL
     text-decoration: none;
     color: white;
     border-bottom: 1px solid white;
+    font-family: 'reforma1969', Helvetica, sans-serif;
 }
 
 .address:hover {
@@ -391,6 +401,7 @@ GLOBAL
 
 .opening-hours {
     color: white;
+    font-family: 'reforma1969', Helvetica, sans-serif;
 }
 
 .black-border {
