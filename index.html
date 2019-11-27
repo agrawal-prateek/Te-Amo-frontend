@@ -42,7 +42,17 @@
                     <li><a class="color_animation navlink" href="#pricing">MENU</a></li>
                     <li><a class="color_animation navlink" href="#ambience">AMBIENCE</a></li>
                     <li><a class="color_animation navlink" href="#offer">OFFER</a></li>
-                    <li><a class="color_animation navlink" href="#food-gallery">FOOD GALLERY</a></li>
+                    <li id="food-g-nav">
+                        <a class="color_animation navlink" href="#food-gallery">FOOD GALLERY</a>
+                        <ul id="food-g-nav-ul">
+                            <li class="food-g-nav-li"><a class="food-g-nav-a" href="#mocktail-container">Mocktails</a>
+                            </li>
+                            <li class="food-g-nav-li"><a class="food-g-nav-a" href="#starter-container">Starters</a>
+                            </li>
+                            <li class="food-g-nav-li"><a class="food-g-nav-a" href="#spec-container">Specialities</a>
+                            </li>
+                        </ul>
+                    </li>
                     <li><a class="color_animation navlink" href="#reservation">TESTIMONIALS</a></li>
                     <li><a class="color_animation navlink" href="#contact">CONTACT</a></li>
                 </ul>
@@ -202,7 +212,7 @@
 
 
 <section class="description_content" id="food-gallery">
-    <div class="mocktails background_content mocktails-left-content">
+    <div class="mocktails background_content mocktails-left-content" id="mocktail-container">
         <h1 id="moctail-heading"><span>Mocktails</span></h1>
     </div>
     <div class="text-content container">
@@ -227,7 +237,7 @@
         </div>
     </div>
     <div class="space"></div>
-    <div class="starters background_content starter-right-content">
+    <div class="starters background_content starter-right-content" id="starter-container">
         <h1 id="starter-heading"><span>Starters</span></h1>
     </div>
     <div class="text-content container">
@@ -254,7 +264,7 @@
         </div>
     </div>
     <div class="space"></div>
-    <div class="speciality background_content speciality-right-content">
+    <div class="speciality background_content speciality-right-content" id="spec-container">
         <h1 id="speciality-heading"><span>Specialities</span></h1>
     </div>
     <div class="text-content container">

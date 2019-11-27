@@ -12,6 +12,53 @@ Text Domain: restaurant
 /*========================
 GLOBAL
 =========================*/
+@media (max-width: 768px) {
+    #food-g-nav-ul {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #food-g-nav {
+        position: relative !important;
+    }
+
+    #food-g-nav-ul {
+        padding: 0 40px 0 0 !important;
+        position: absolute !important;
+        left: 0 !important;
+        top: 3em !important;
+        transition: all 0.3s ease !important;
+        transform: scale(0) !important;
+        transform-origin: 0 0 !important;
+        background: white !important;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+    }
+
+    .food-g-nav-li {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .food-g-nav-a {
+        width: 100% !important;
+        padding: 1em 18px !important;
+        display: inline-block !important;
+        white-space: pre !important;
+        box-sizing: border-box !important;
+        border-bottom: none !important;
+    }
+
+    .food-g-nav-a:hover {
+        color: #800019 !important;
+        border-bottom: none !important;
+    }
+
+    #food-g-nav:hover #food-g-nav-ul {
+        transform: scale(1) !important;
+    }
+}
+
 #flipbook {
     width: 100%;
     height: 700px;
@@ -21,6 +68,7 @@ GLOBAL
     height: 700px;
     width: 100%;
 }
+
 .mocktails-item-name {
     font-size: 18px;
     color: white;
@@ -42,6 +90,7 @@ GLOBAL
 .default-transparent-nav {
     background-color: transparent !important;
 }
+
 .transparent-nav {
     background-color: transparent !important;
     animation: anim_to_tranparent 1s;
@@ -111,6 +160,7 @@ GLOBAL
     margin: 16px;
     transform: rotateX(180deg);
 }
+
 #offer {
     padding-top: 0;
     background: #800019;
